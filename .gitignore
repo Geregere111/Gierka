@@ -1,0 +1,11 @@
+.vs/
+*.env
+Logs/
+/[Oo]bj/
+*.csproj
+
+Library/
+/[Tt]emp/
+/[Bb]uild/
+UserSettings/
+*.sln
