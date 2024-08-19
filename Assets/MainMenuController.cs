@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
-using UnityEditor.PackageManager.UI;
-using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -13,7 +12,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void OpenSettings(){
-        Debug.Log("Loading settings menu...");
+        SceneManager.LoadScene(1);
     }
 
     public void CloseWindow(){
